@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.product {
+    text-align: center;
+    width: 350px;
+    padding: 2%;
+    margin: 2%;
+}   
+
+
+button {
+    margin: 5px 5px;
+    border-radius: 10px;
+}

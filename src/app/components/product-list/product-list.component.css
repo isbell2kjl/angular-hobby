@@ -1,0 +1,38 @@
+.heading{
+    margin: 0.5% 2%;
+}
+
+.container {
+    width: 100%; 
+    display:flex;
+    flex-direction: row; 
+    overflow: auto;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 0%;
+    margin-bottom: 10%;
+}
+
+.inputwrapper {
+    display: inline-block;
+    margin-left: 25%;
+
+}
+.search {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.item {
+    padding: 1%;
+    margin: 1% 2%;
+}
+
+.buttonsGroup {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    margin: 1%;
+    
+}

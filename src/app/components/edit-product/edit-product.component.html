@@ -1,0 +1,25 @@
+<form #form="ngForm" (ngSubmit)="onSubmit()">
+    <h1>Edit Product</h1>
+    <div class="inputwrapper">
+        <label>Name</label>
+        <input type="text" name="productName" [(ngModel)]="currentProduct.productName">
+    </div>
+    <div class="inputwrapper">
+        <label>Description</label>
+        <textarea type="text" name="description" [(ngModel)]="currentProduct.description">/</textarea>
+    </div>
+    <div class="inputwrapper">
+        <label>Type</label>
+        <input type="text" name="productType" [(ngModel)]="currentProduct.productType">
+    </div>
+    <div class="inputwrapper">
+        <label>ImageUrl</label>
+        <textarea type="text" name="imageUrl" [(ngModel)]="currentProduct.imageUrl"></textarea>
+    </div>
+    <div class="inputwrapper">
+        <label>Price</label>
+        <input type="number" name="price" [(ngModel)]="currentProduct.price">
+    </div>
+    <button class="button" mat-flat-button color="primary" [routerLink]='["/products"]'>Back</button>
+    <button type="submit" mat-flat-button color="accent">Edit Product</button>
+</form>

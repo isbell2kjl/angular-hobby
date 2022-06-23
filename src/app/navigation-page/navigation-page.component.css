@@ -1,0 +1,38 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+h1 {
+  font-size: larger;
+  padding-left: 25px;
+}
+
+.footer  {
+  background-color: #c2185b;
+  position: fixed;
+  bottom: 0;
+  }
+
+  .footer #copyright {
+    font-size: small;
+    padding-left: 5%;
+  }
+
+  .footer #creator {
+    font-size: small;
+    padding-left: 2%;
+  }

@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Techy Hurdlers",
+      "description": "Full action hurdlers on the move, inside your computer.",
+      "productType": "People",
+      "imageUrl": "https://source.unsplash.com/kY2H30v6Bs4/",
+      "price": 9.99
+    },
+    {
+      "id": 2,
+      "productName": "Hanging Pets",
+      "description": "The coffee-loving dog and cat hanging on for dear life",
+      "productType": "Animals",
+      "imageUrl": "https://source.unsplash.com/AwyVXNDSdYU/",
+      "price": 14.99
+    },
+    {
+      "id": 3,
+      "productName": "Vintage Volkswagon",
+      "description": "The red Beetle lost in the forest",
+      "productType": "Cars",
+      "imageUrl": "https://source.unsplash.com/sThX5_fquYc/",
+      "price": 29.99
+    },
+    {
+      "id": 4,
+      "productName": "Original Transport",
+      "description": "The Junkers F13, ready for takeoff",
+      "productType": "Airplanes",
+      "imageUrl": "https://source.unsplash.com/dXz5z8nnojI/",
+      "price": 38.99
+    },
+    {
+      "id": 5,
+      "productName": "Floral Wagon",
+      "description": "This VW bus will take you on many wonderful adventures.",
+      "productType": "Cars",
+      "imageUrl": "https://source.unsplash.com/GLCKtmDbOIY/",
+      "price": 13.99
+    },
+    {
+      "id": 6,
+      "productName": "Chocolate Repair",
+      "description": "Get this team together to put this chocolate bar together again.",
+      "productType": "People",
+      "imageUrl": "https://source.unsplash.com/nhgGtkSSqk4/",
+      "price": 7.99
+    },
+    {
+      "id": 7,
+      "productName": "Money Managers",
+      "description": "There is more than one way to manage your money.  Be careful not to lose your \"balance.\"",
+      "productType": "People",
+      "imageUrl": "https://source.unsplash.com/1fzyz-bmKBw",
+      "price": 4.99
+    },
+    {
+      "id": 8,
+      "productName": "Adventure Canoes",
+      "description": "Let's ride the rapids to our next great adventure.",
+      "productType": "People",
+      "imageUrl": "https://source.unsplash.com/tzF3Yp2TsYA",
+      "price": 9.99
+    },
+    {
+      "id": 9,
+      "productName": "Classic Bicycle",
+      "description": "Take this bicycle back in time and ride to your favorite spot.",
+      "productType": "Bicycles",
+      "imageUrl": "https://source.unsplash.com/xTETxAdcwzQ",
+      "price": 19.99
+    },
+    {
+      "id": 10,
+      "productName": "Drone Workers",
+      "description": "Take that great adventure to another level. See the world with drone photography.",
+      "productType": "Airplanes",
+      "imageUrl": "https://source.unsplash.com/yqQPg2yZBC4",
+      "price": 25.99
+    },
+    {
+      "id": 11,
+      "productName": "Lounge Comfort",
+      "description": "Add this to your mini home collection, a classic lounge chair, great for all times.",
+      "productType": "Furniture",
+      "imageUrl": "https://source.unsplash.com/bG6R8CzLXzc",
+      "price": 9.99
+    },
+    {
+      "id": 12,
+      "productName": "Workhorse tractor",
+      "description": "This amazing machine goes where you need it.  It does the job.",
+      "productType": "Cars",
+      "imageUrl": "https://source.unsplash.com/LR4Secoy6Mo",
+      "price": 14.99
+    },
+    {
+      "id": 13,
+      "productName": "Classic Flyer",
+      "description": "This plane is perfect for little hands in small places. Kids, and adults, love it.",
+      "productType": "Airplanes",
+      "imageUrl": "https://source.unsplash.com/9tnw9e0bluk",
+      "price": 4.99
+    },
+    {
+      "id": 14,
+      "productName": "Veggie workers",
+      "description": "These guys are essential to keep vegetables in good shape, ready for your next meal.",
+      "productType": "People",
+      "imageUrl": "https://source.unsplash.com/hbJtngKksDo",
+      "price": 7.99
+    },
+    {
+      "id": 15,
+      "productName": "Rural Village",
+      "description": "This is the perfect setting for an outback adventure.  Add it to your outdoor universe.",
+      "productType": "Towns",
+      "imageUrl": "https://source.unsplash.com/zw7Ut7t3ciU",
+      "price": 24.99
+    }
+  ]
+}

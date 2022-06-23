@@ -1,0 +1,27 @@
+form {
+    text-align: center;
+    padding: 1%;
+    
+}
+.inputwrapper {
+    display: block;
+    text-align: left;
+    left:0;
+    right:0;
+    margin: 3% 35%;
+}
+
+label {
+    width: 120px;
+    display: inline-block;
+}
+
+textarea {
+    vertical-align: top;
+    height: 75px;
+}
+
+button {
+    margin: 5px 5px;
+    border-radius: 10px;
+}

@@ -1,0 +1,26 @@
+<div class="productList">
+    <div class="heading">
+        <h2>Explore our unique products</h2>
+        <button class="button" mat-raised-button color="primary" [routerLink]="['/add']">Add</button>
+        <div class="inputwrapper">
+            <input type="text" name="searchText" [(ngModel)]="searchText">
+            <button class="search" type="submit" mat-flat-button color="accent" (click)="onSearch()">Search</button>
+        </div>
+    </div>
+    <div class="container">
+        <mat-card class="item" *ngFor="let p of productList">
+            <img src="{{p.imageUrl}}/300x300" alt="">
+            <mat-card-content>
+                {{p.productName}}
+                ${{p.price}}
+            </mat-card-content>
+            <mat-divider inset></mat-divider>
+            <mat-card-actions class="buttonsGroup">
+                <button class="button" mat-flat-button color="primary" [routerLink]="['/products', p.id]">View</button>
+                <button class="button" mat-flat-button color="accent" [routerLink]="['/edit', p.id]">Edit</button>
+                <button class="button" mat-flat-button color="warn" (click)="onDelete(p.id)"
+                    [routerLink]="['/products']">Delete</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>
