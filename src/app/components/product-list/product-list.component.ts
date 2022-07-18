@@ -1,3 +1,5 @@
+import { InterpolationConfig } from '@angular/compiler';
+import { Byte } from '@angular/compiler/src/util';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Product } from 'src/app/models/product';
@@ -12,6 +14,8 @@ export class ProductListComponent implements OnInit {
 
   productList: Product[] = [];
   searchText: string = ""
+  sortText: string = ""
+  priceRange: string = ""
 
   constructor(private productService: ProductService, private router: Router) { }
 
@@ -31,6 +35,21 @@ export class ProductListComponent implements OnInit {
 
   onSearch() {
     this.productService.getProductsBySearch(this.searchText).subscribe(foundProducts => {
+      console.log(foundProducts);
+      this.productList = foundProducts;
+
+    })
+  }
+
+  onSort() {
+    this.productService.getProductsBySort(this.sortText).subscribe(foundProducts => {
+      console.log(foundProducts);
+      this.productList = foundProducts;
+
+    })
+  }
+  onPrice() {
+    this.productService.getProductsByPrice(this.priceRange).subscribe(foundProducts => {
       console.log(foundProducts);
       this.productList = foundProducts;
 

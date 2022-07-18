@@ -18,6 +18,12 @@ export class ProductService {
   getProductsBySearch(searchProduct: string): Observable<Product[]> {
     return this.http.get<Product[]>(this.dataSource + "?q=" + searchProduct);
   }
+  getProductsBySort(sortProduct: string): Observable<Product[]> {
+    return this.http.get<Product[]>(this.dataSource + "?_sort=" + sortProduct);
+  }
+  getProductsByPrice(priceRange: string): Observable<Product[]> {
+    return this.http.get<Product[]>(this.dataSource + "?price_gte=" + priceRange + "&_sort=price");
+  }
   getProductByID(id: number): Observable<Product> {
     return this.http.get<Product>(this.dataSource + "/" + id);
   }

@@ -23,8 +23,8 @@ h1 {
 
 .footer  {
   background-color: #c2185b;
-  position: fixed;
-  bottom: 0;
+  margin-top: 100px;
+  justify-content: space-between;
   }
 
   .footer #copyright {
@@ -34,5 +34,14 @@ h1 {
 
   .footer #creator {
     font-size: small;
-    padding-left: 2%;
+    padding-right: 5%;
+  }
+
+
+  @media only screen and (max-width: 700px) {
+
+    .footer #copyright {
+     margin-right: 10px;
+    }
+
   }

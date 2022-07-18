@@ -54,7 +54,7 @@
       "description": "There is more than one way to manage your money.  Be careful not to lose your \"balance.\"",
       "productType": "People",
       "imageUrl": "https://source.unsplash.com/1fzyz-bmKBw",
-      "price": 4.99
+      "price": 4.95
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "description": "Let's ride the rapids to our next great adventure.",
       "productType": "People",
       "imageUrl": "https://source.unsplash.com/tzF3Yp2TsYA",
-      "price": 9.99
+      "price": 9.95
     },
     {
       "id": 9,
@@ -86,7 +86,7 @@
       "description": "Add this to your mini home collection, a classic lounge chair, great for all times.",
       "productType": "Furniture",
       "imageUrl": "https://source.unsplash.com/bG6R8CzLXzc",
-      "price": 9.99
+      "price": 6.99
     },
     {
       "id": 12,
@@ -94,7 +94,7 @@
       "description": "This amazing machine goes where you need it.  It does the job.",
       "productType": "Cars",
       "imageUrl": "https://source.unsplash.com/LR4Secoy6Mo",
-      "price": 14.99
+      "price": 12.99
     },
     {
       "id": 13,
@@ -110,15 +110,87 @@
       "description": "These guys are essential to keep vegetables in good shape, ready for your next meal.",
       "productType": "People",
       "imageUrl": "https://source.unsplash.com/hbJtngKksDo",
-      "price": 7.99
+      "price": 7.95
     },
     {
       "id": 15,
       "productName": "Rural Village",
       "description": "This is the perfect setting for an outback adventure.  Add it to your outdoor universe.",
-      "productType": "Towns",
+      "productType": "Villages",
       "imageUrl": "https://source.unsplash.com/zw7Ut7t3ciU",
       "price": 24.99
+    },
+    {
+      "id": 16,
+      "productName": "Roman Fighters",
+      "description": "Plan your battle strategy with these epic Roman soldiers, ready at a moment's notice",
+      "productType": "People",
+      "imageUrl": "https://source.unsplash.com/-L0N74GWsq8",
+      "price": 3.88
+    },
+    {
+      "id": 17,
+      "productName": "Wedding Party",
+      "description": "Plan the perfect Victorian style outdoor wedding with these classic figurines.",
+      "productType": "People",
+      "imageUrl": "https://source.unsplash.com/SnXRwUWLjdc",
+      "price": 6.25
+    },
+    {
+      "id": 18,
+      "productName": "Steam Locomotive",
+      "description": "Start your train collection with this original steam engine, straight out of the movies.",
+      "productType": "Trains",
+      "imageUrl": "https://source.unsplash.com/N8cX5KRUXNQ",
+      "price": 13.88
+    },
+    {
+      "id": 19,
+      "productName": "Classic Chevy",
+      "description": "My favorite, 1960's Chevy pickup for all uses. It brings back memories of my grandfather's truck.",
+      "productType": "Cars",
+      "imageUrl": "https://source.unsplash.com/BCKgFzJbwz4",
+      "price": 10.05
+    },
+    {
+      "id": 20,
+      "productName": "Operating Room",
+      "description": "Great for your hospital layout, this OR is prepared for anything.",
+      "productType": "People",
+      "imageUrl": "https://source.unsplash.com/HaCqGNFgiGE",
+      "price": 2.65
+    },
+    {
+      "id": 21,
+      "productName": "Baby Yoda",
+      "description": "Great for your Star Wars collection, this baby Yoda has so much character.",
+      "productType": "Movies",
+      "imageUrl": "https://source.unsplash.com/zD_7lHVkOYE",
+      "price": 23.85
+    },
+    {
+      "id": 22,
+      "productName": "Passenger Car",
+      "description": "This is the perfect passenger car to add to your train collection.",
+      "productType": "Trains",
+      "imageUrl": "https://source.unsplash.com/cvEfwh-ImSc",
+      "price": 9.98
+    },
+    {
+      "id": 23,
+      "productName": "Darth Duel",
+      "description": "The light saber duel that wont want to do without for your Star Wars collection.",
+      "productType": "Movies",
+      "imageUrl": "https://source.unsplash.com/fr0ag39Dr04",
+      "price": 11.95
+    },
+    {
+      "id": 24,
+      "productName": "Clock Tower",
+      "description": "Enjoy this village clock tower, set in a quaint Italian setting at Christmas time.",
+      "productType": "Villages",
+      "imageUrl": "https://source.unsplash.com/2nIsxaBfHhc",
+      "price": 24.85
     }
   ]
 }
