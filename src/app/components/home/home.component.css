@@ -3,16 +3,19 @@ h2{
 }
 
 .container {
-    width: 100%; 
+    width: 80%;
+    max-width: 100%;
     display:flex; 
     flex-direction: row; 
     overflow: auto;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    padding: 0;
-    margin: 0;
+    /* padding: 0; */
+    margin: auto;
 }
 
 .item {
-    padding-top: 10%;  
+    padding-top: 10%;
+    margin: auto;
+    
 }

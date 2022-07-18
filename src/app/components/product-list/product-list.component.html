@@ -2,9 +2,29 @@
     <div class="heading">
         <h2>Explore our unique products</h2>
         <button class="button" mat-raised-button color="primary" [routerLink]="['/add']">Add</button>
-        <div class="inputwrapper">
-            <input type="text" name="searchText" [(ngModel)]="searchText">
-            <button class="search" type="submit" mat-flat-button color="accent" (click)="onSearch()">Search</button>
+        <div class="searchWrapper">
+            <mat-label>Search: </mat-label>
+            <input type="text" name="searchText" [(ngModel)]="searchText" (keyup.enter)="onSearch()">
+            <!-- <button class="search" type="submit" mat-flat-button color="accent" (click)="onSearch()">Search</button> -->
+        </div>
+        <div class="sortWrapper">
+            <p>Sort:
+                <mat-button-toggle-group [(ngModel)]="sortText" (change)="onSort()">
+                    <mat-button-toggle value="productName">Name</mat-button-toggle>
+                    <mat-button-toggle value="price">Price</mat-button-toggle>
+                </mat-button-toggle-group>
+            </p>
+        </div>
+        <div class="selectWrapper">
+            <mat-form-field appearance="fill">
+                <mat-label>Select a price range</mat-label>
+                <mat-select [(ngModel)]="priceRange" (selectionChange)="onPrice()">
+                    <mat-option>None</mat-option>
+                    <mat-option value="0&price_lte=10">0 to 10</mat-option>
+                    <mat-option value="10&price_lte=20">10 to 20</mat-option>
+                    <mat-option value="20">more than 20</mat-option>
+                </mat-select>
+            </mat-form-field>
         </div>
     </div>
     <div class="container">
