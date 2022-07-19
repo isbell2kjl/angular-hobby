@@ -23,16 +23,16 @@ export class ProductListComponent implements OnInit {
     // this.productService.getAllProducts().subscribe(foundProducts => {
     //   console.log(foundProducts);
     //   this.productList = foundProducts;
-   this.onSearch();
+    this.onSearch();
   }
-  
   onDelete(id: number) {
-    this.productService.deleteProductByID(id).subscribe(response => {
-      console.log(response);
-      window.location.reload();
-    });
+    if (confirm("Are you sure you want to delete this item?")) {
+      this.productService.deleteProductByID(id).subscribe(response => {
+        console.log(response);
+        window.location.reload();
+      });
+    }
   }
-
   onSearch() {
     this.productService.getProductsBySearch(this.searchText).subscribe(foundProducts => {
       console.log(foundProducts);
@@ -40,7 +40,6 @@ export class ProductListComponent implements OnInit {
 
     })
   }
-
   onSort() {
     this.productService.getProductsBySort(this.sortText).subscribe(foundProducts => {
       console.log(foundProducts);

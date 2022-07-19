@@ -25,6 +25,7 @@ h1 {
   background-color: #c2185b;
   margin-top: 100px;
   justify-content: space-between;
+  position: relative;
   }
 
   .footer #copyright {

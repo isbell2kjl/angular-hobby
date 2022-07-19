@@ -4,16 +4,16 @@
                 <h2>{{product.productName}}</h2>
                 <p>{{product.description}}</p>
                 <label>Price: ${{product.price}}</label>
-                <br>
-                <label>Type: {{product.productType}} </label>
+                <label>  Type: {{product.productType}} </label>
             </mat-card-content>
             <img src="{{product.imageUrl}}/300x300" alt="">
             <!-- <a [routerLink]="['/menu']">Back</a> -->
+            <mat-divider inset></mat-divider>
             <mat-card-actions class="buttonsGroup">
                 <button class="button" mat-flat-button color="primary" [routerLink]='["/products"]'>Back</button>
                 <button class="button" mat-flat-button color="accent" [routerLink]='["/edit", product.id]'>Edit</button>
                 <button class="button" mat-flat-button color="warn" (click)="onDelete(product.id)"
-                    [routerLink]="['/menu']">Delete</button>
+                    [routerLink]="['/products']">Delete</button>
             </mat-card-actions>
         </mat-card>
     </div>

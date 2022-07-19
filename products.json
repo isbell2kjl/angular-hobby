@@ -2,11 +2,11 @@
   "products": [
     {
       "id": 1,
-      "productName": "Techy Hurdlers",
-      "description": "Full action hurdlers on the move, inside your computer.",
-      "productType": "People",
+      "productName": "Techie Hurdlers",
+      "description": "Athletic hurdlers in action inside your computer.",
+      "productType": "Animals",
       "imageUrl": "https://source.unsplash.com/kY2H30v6Bs4/",
-      "price": 9.99
+      "price": 14.99
     },
     {
       "id": 2,
@@ -140,17 +140,17 @@
       "id": 18,
       "productName": "Steam Locomotive",
       "description": "Start your train collection with this original steam engine, straight out of the movies.",
-      "productType": "Trains",
+      "productType": "Trains, Villages",
       "imageUrl": "https://source.unsplash.com/N8cX5KRUXNQ",
       "price": 13.88
     },
     {
       "id": 19,
       "productName": "Classic Chevy",
-      "description": "My favorite, 1960's Chevy pickup for all uses. It brings back memories of my grandfather's truck.",
+      "description": "My favorite, 1960's Chevy pickup for all uses, with functioning headlights.",
       "productType": "Cars",
       "imageUrl": "https://source.unsplash.com/BCKgFzJbwz4",
-      "price": 10.05
+      "price": 49.99
     },
     {
       "id": 20,
@@ -172,7 +172,7 @@
       "id": 22,
       "productName": "Passenger Car",
       "description": "This is the perfect passenger car to add to your train collection.",
-      "productType": "Trains",
+      "productType": "Trains, Villages",
       "imageUrl": "https://source.unsplash.com/cvEfwh-ImSc",
       "price": 9.98
     },
@@ -191,6 +191,54 @@
       "productType": "Villages",
       "imageUrl": "https://source.unsplash.com/2nIsxaBfHhc",
       "price": 24.85
+    },
+    {
+      "id": 25,
+      "productName": "1934 Duesenberg",
+      "description": "The best in vintage convertibles.  What a beauty to add to your collection.",
+      "productType": "Cars",
+      "imageUrl": "https://source.unsplash.com/lLxOVNTmWVo",
+      "price": 69.95
+    },
+    {
+      "id": 26,
+      "productName": "Train Station",
+      "description": "Train station with two  parallel tracks with passenger and freight trains side by side.",
+      "productType": "Villages, Trains",
+      "imageUrl": "https://source.unsplash.com/N6kkI32Oh7g",
+      "price": 59.95
+    },
+    {
+      "id": 27,
+      "productName": "Waiting for You",
+      "description": "The cutest figure of a boy on a park bench, waiting for his friends.",
+      "productType": "People",
+      "imageUrl": "https://source.unsplash.com/sVUf0LTsEK0",
+      "price": 8.99
+    },
+    {
+      "id": 28,
+      "productName": "Waiting to Play",
+      "description": "Woody, exactly where you left him, waiting for you to play.",
+      "productType": "People, Toy Story",
+      "imageUrl": "https://source.unsplash.com/rz3eCYGgGSc",
+      "price": 29.99
+    },
+    {
+      "id": 29,
+      "productName": "Buzz Lightyear",
+      "description": "Buzz is happy and ready to go! Let him save the day for you!",
+      "productType": "People, Toy Story",
+      "imageUrl": "https://source.unsplash.com/8FjAcgcWR4E",
+      "price": 29.95
+    },
+    {
+      "id": 30,
+      "productName": "Jessie at work",
+      "description": "There is no one like Jessie to make your day. Always ready to lead the way.",
+      "productType": "People, Toy Story",
+      "imageUrl": "https://source.unsplash.com/sfAEazGOY0M",
+      "price": 29.91
     }
   ]
 }

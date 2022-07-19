@@ -22,10 +22,12 @@ export class ProductDetailComponent implements OnInit {
       this.product = result;
     })
   }
-
+  
   onDelete(id: number) {
-    this.productService.deleteProductByID(id).subscribe(response => {
-      console.log(response);
-    });
+    if (confirm("Are you sure you want to delete this item?")) {
+      this.productService.deleteProductByID(id).subscribe(response => {
+        console.log(response);
+      });
+    }
   }
 }
